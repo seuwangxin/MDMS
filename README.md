@@ -114,7 +114,6 @@ The preprocessed marker data for input should be in DataFrame format. The code t
 *multiple (default: 20):* This parameter determines that, given a sufficient number of available markers, the final count of selected markers will approximately equal the sample size multiplied by this value.
 
 The output is a vector of selected marker index. Extract the corresponding data from the marker data based on the marker index, and obtain the marker subset. Finally, this marker subset can be used in GS models. A simple example of the RKHS model fitting with the marker subset is shown in Fig. 4.
-
 ![Fig 4](images/fig4.png)
 
 **Fig. 4.** **An example of applying the marker subset to RKHS.** This is a simple code example of applying the marker subset to the RKHS model. Here, "snp\_data" is the marker data in DataFrame format that has been preprocessed, and "phe" is phenotypic data in matrix format.
