@@ -3,9 +3,9 @@ The package "markerselection" enables users to apply the Manhattan Distance-base
 
 ## User manual of the package markerselection
 
-1. **User manual of the Python Package markerselection**
+**1. User manual of the Python Package markerselection**
 
-1.1 **Set up the operating environment**
+**1.1 Set up the operating environment**
    
 (1) To use the MDMS method, you first need to configure the operating environment. Install Anaconda (*https://www.anaconda.com/*) and add it to the system environment. Double-click the downloaded file and follow the instructions on the screen.
 
