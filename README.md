@@ -1,7 +1,7 @@
 # MDMS: A novel marker selection method for more accurate and efficient genomic selection
 The package "markerselection" enables users to apply the Manhattan Distance-based Marker Selection (MDMS) method. It is implemented in both R and Python.
 
-**User manual of the package markerselection**
+## User manual of the package markerselection**
 
 1. **User manual of the Python Package markerselection**
    1. **Set up the operating environment**
