@@ -71,7 +71,7 @@ The output is a list of selected marker index. Extract the corresponding data fr
 
 **Fig. 3. An example of applying the marker subset to SVM.** This is a simple code example of applying the marker subset to the SVM model. Here, "snp\_data" is the marker data in DataFrame format that has been preprocessed, and "phe" is phenotypic data in DataFrame format.
 
-2. **User manual of the R Package markerselection**
+**2. User manual of the R Package markerselection**
 
 **2.1 Install R package**
 
@@ -87,7 +87,7 @@ If no errors are displayed, the installation is successful. Additional installat
 
 The R version should be at least 4.3.
 
-2.2 **Preprocess input data**
+**2.2 Preprocess input data**
 
 You need to preprocess the input data. The input data should be in DataFrame format, with rows presenting samples and columns presenting markers. The input data needs to be preprocessed as follows:
 
@@ -99,7 +99,7 @@ An example of the marker data used as input is shown in Fig. 1.
 
 (3) The phenotypic data input for the genomic selection model be in DataFrame format. An example of the phenotypic data used as input is shown in Fig. 2.
 
-2.3 **Usage**
+**2.3 Usage**
 
 Use the following code to import the package:
 
