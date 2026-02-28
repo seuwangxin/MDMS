@@ -107,7 +107,7 @@ Use the following code to import the package:
 
 The preprocessed marker data for input should be in DataFrame format. The code to use the package is as follows:
 
-*Output\_*results *<- select(marker\_data,* *multiple=20)*
+*Output\_*results *<- select(marker\_data, multiple=20)*
 
 *marker\_data:* The input DataFrame containing processed genotype data.
 
