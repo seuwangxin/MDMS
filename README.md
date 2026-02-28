@@ -59,7 +59,7 @@ In Python, use the following code to import the package:
 
 The preprocessed marker data for input should be in DataFrame format. The code to use the package is as follow:
 
-*Output\_results = select(marker\_data,* *multiple=20)*
+*Output_results = select(marker\_data, multiple=20)*
 
 *marker\_data:* The input DataFrame containing processed genotype data.
 
