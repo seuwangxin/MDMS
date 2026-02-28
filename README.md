@@ -55,7 +55,7 @@ An example of the marker data used as input is shown in Fig. 1.
 
 In Python, use the following code to import the package:
 
-*from markerselection import selec**t*
+*from markerselection import select*
 
 The preprocessed marker data for input should be in DataFrame format. The code to use the package is as follow:
 
