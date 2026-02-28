@@ -37,13 +37,13 @@ After setting up the environment and installing the package, you need to preproc
 
 An example of the marker data used as input is shown in Fig. 1.
 
-![](data:image/tiff;base64...)
+![Fig 1](images/fig1.png)
 
 **Fig. 1. An input example of the marker data.** The column names in the data are marker positions, prefixed by the serial number of each chromosome. The row names are the sample names.
 
 1. The phenotypic data input for the genomic selection model be in DataFrame format. An example of the phenotypic data used as input is shown in Fig. 2.
 
-![](data:image/tiff;base64...)
+![Fig 2](images/fig2.png)
 
 **Fig. 2 An input example of the phenotypic dat**a. "ASV" is the name of a trait. The row names are the sample names.
 
@@ -63,7 +63,7 @@ The preprocessed marker data for input should be in DataFrame format. The code t
 
 The output is a list of selected marker index. Extract the corresponding data from the marker data based on the marker index, and obtain the marker subset. Finally, this marker subset can be used in GS models. A simple example of the SVM model fitting with the marker subset is shown in Fig. 3.
 
-![](data:image/tiff;base64...)
+![Fig 3](images/fig3.png)
 
 **Fig. 3. An example of applying the marker subset to SVM.** This is a simple code example of applying the marker subset to the SVM model. Here, "snp\_data" is the marker data in DataFrame format that has been preprocessed, and "phe" is phenotypic data in DataFrame format.
 
@@ -108,6 +108,6 @@ The preprocessed marker data for input should be in DataFrame format. The code t
 
 The output is a vector of selected marker index. Extract the corresponding data from the marker data based on the marker index, and obtain the marker subset. Finally, this marker subset can be used in GS models. A simple example of the RKHS model fitting with the marker subset is shown in Fig. 4.
 
-![](data:image/tiff;base64...)
+![Fig 4](images/fig4.png)
 
 **Fig. 4.** **An example of applying the marker subset to RKHS.** This is a simple code example of applying the marker subset to the RKHS model. Here, "snp\_data" is the marker data in DataFrame format that has been preprocessed, and "phe" is phenotypic data in matrix format.
