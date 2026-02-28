@@ -3,7 +3,7 @@ The package "markerselection" enables users to apply the Manhattan Distance-base
 
 ## User manual of the package markerselection
 
-##1. **User manual of the Python Package markerselection**
+1. **User manual of the Python Package markerselection**
 
 1.1 **Set up the operating environment**
    
@@ -71,7 +71,7 @@ The output is a list of selected marker index. Extract the corresponding data fr
 
 **Fig. 3. An example of applying the marker subset to SVM.** This is a simple code example of applying the marker subset to the SVM model. Here, "snp\_data" is the marker data in DataFrame format that has been preprocessed, and "phe" is phenotypic data in DataFrame format.
 
-##2. **User manual of the R Package markerselection**
+2. **User manual of the R Package markerselection**
 
 2.1 **Install R package**
 
