@@ -23,7 +23,7 @@ The detailed environment configuration is as follows:
 
 *scikit-learn=1.6.1*
 
-1.2 **Install the package markerselection**
+**1.2 Install the package markerselection**
 
 Download and unzip the package "markerselection-1.0.0.tar.gz" to your local directory (taking "D:\MDMS\" as an example). After unzipping, it will produce a folder named markerselection-1.0.0. Then activate your conda environment and install the package using the following commands:
 
@@ -31,7 +31,7 @@ Download and unzip the package "markerselection-1.0.0.tar.gz" to your local dire
 
 *pip install .*
 
-1.3 **Preprocess input data**
+**1.3 Preprocess input data**
 
 After setting up the environment and installing the package, you need to preprocess the input data. The input data should be in DataFrame format, with rows presenting samples and columns presenting markers. The input data needs to be preprocessed as follows:
 
@@ -51,7 +51,7 @@ An example of the marker data used as input is shown in Fig. 1.
 
 **Fig. 2 An input example of the phenotypic dat**a. "ASV" is the name of a trait. The row names are the sample names.
 
-1.4 **Usage**
+**1.4 Usage**
 
 In Python, use the following code to import the package:
 
@@ -73,7 +73,7 @@ The output is a list of selected marker index. Extract the corresponding data fr
 
 2. **User manual of the R Package markerselection**
 
-2.1 **Install R package**
+**2.1 Install R package**
 
 Download the package "markerselection\_1.0.0.tar.gz" to your local directory (taking "D:\MDMS\" as an example). Use the following command to install the package markerselection:
 
